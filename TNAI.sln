@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TNAI_API", "TNAI_API\TNAI_API.csproj", "{E0346710-F9FF-427B-8854-BC4C8634D3E4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A249C8ED-E5BE-45FC-B118-F87BD424176E} = {A249C8ED-E5BE-45FC-B118-F87BD424176E}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TNAI.Model", "TNAI.Model\TNAI.Model.csproj", "{971BC5F9-8E4A-406E-B756-648701811EDD}"
 EndProject
@@ -11,7 +14,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TNAI.Repository", "TNAI.Rep
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TNAI.Dto", "TNAI.Dto\TNAI.Dto.csproj", "{E445F70C-CDDE-400E-B697-A7E14F6FF1D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TNAI.Web", "TNAI.Web\TNAI.Web.csproj", "{A249C8ED-E5BE-45FC-B118-F87BD424176E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TNAI.Web", "TNAI.Web\TNAI.Web.csproj", "{A249C8ED-E5BE-45FC-B118-F87BD424176E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
