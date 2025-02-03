@@ -1,16 +1,16 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Identity;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TNAI.Dto.Catrgories
+namespace StoreApp.Models.Models
 {
-    public class CategoryInputDto
+    public class ApplicationUserModel: IdentityUser
     {
         [Required]
-        [MaxLength(200)]
         public string Name { get; set; }
     }
 }

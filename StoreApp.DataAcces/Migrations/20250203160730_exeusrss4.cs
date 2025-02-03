@@ -2,15 +2,18 @@
 
 #nullable disable
 
-namespace TNAI.Model.Migrations
+namespace StoreApp.DataAcces.Migrations
 {
-    public partial class init4 : Migration
+    /// <inheritdoc />
+    public partial class exeusrss4 : Migration
     {
+        /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
 
         }
 
+        /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
 
